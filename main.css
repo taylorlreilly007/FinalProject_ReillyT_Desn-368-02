@@ -23,7 +23,8 @@
     background-blend-mode:overlay;
     background-image:cover;
 }
-a:visited{
+a:visited,
+a:link{
     color:white;
 }
 
@@ -41,7 +42,6 @@ nav{
 }
 .navbuttons a:link{
     background-color:#1a2930;
-    color:white;
     text-decoration: none;
     height:20px;
     width:125px;
