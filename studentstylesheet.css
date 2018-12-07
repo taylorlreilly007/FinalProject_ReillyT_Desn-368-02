@@ -1,0 +1,120 @@
+
+/*---Fonts---*/
+@font-face {
+    font-family: 'avenir-next-regular';
+    src: url('assets/fonts/avenir-next-regular.eot'); 
+    src: url('assets/fonts/avenir-next-regular.woff') format('woff');
+  }
+@font-face{
+    font-family:'gotham-bold';
+    src: url('assets/fonts/Gotham-Bold.eot');
+    src: url('assets/fonts/Gotham-Bold.woff') format('woff');
+}
+@font-face{
+    font-family:'gotham-medium';
+    src: url('assets/fonts/Gotham-Medium.eot');
+    src: url('assets/fonts/Gotham-Medium.woff') format('woff');
+}
+
+/*---Body---*/
+.navheaderwrapper{
+    background-image: url(assets/images/header/studentsheader.jpg);
+    background-color:#AD7F70;
+    background-blend-mode:overlay;
+    background-size: cover;
+
+}
+a:visited{
+    color:white;
+}
+
+/*---Navigation---*/
+nav{
+    display:grid;
+    grid-template-columns:5fr 12fr .5fr;
+    padding:25px 45px 0 50px;
+}
+.navbuttons{
+    display:flex;
+    justify-content:space-evenly;
+    font-family:"gotham-bold";
+
+}
+.navbuttons a:link{
+    background-color:#1a2930;
+    color:white;
+    text-decoration: none;
+    height:20px;
+    width:125px;
+    font-size: 22px;
+    padding:2px 15px 13px 45px;
+}
+img[alt="logo"]{
+    height: 125px;
+    width: auto;
+}
+#studentsyellow{
+    background-color: #f7ce3e;
+}
+
+/*---Header---*/
+header{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin:50px 250px 50px 250px;
+}
+.students,
+.headerquote{
+    color:#f7ce3e;
+    font-weight: normal;
+}
+.headerquote{
+    font-size: 2.6em;
+    font-family: "avenir-next-regular";
+    margin-top:0;
+    margin-bottom:180px;
+    opacity:0.6;
+}
+.students{
+    margin-top:0;
+    font-size: 5em;
+    font-family: "gotham-medium";
+}
+
+/*---Footer---*/
+footer{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color:#1A2930;
+    padding:3em;
+}
+.footerleft a:link,
+.footermiddle a:link,
+.footerright a:link{
+    text-decoration: none;
+    font-size: 22px;
+    font-family:"gotham-bold";
+    font-weight: normal;
+    margin: 10px;
+}
+.footerleft,
+.footerright{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.footermiddle{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+#jobs{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+#campus{
+    margin-left:-50px;
+}
+
