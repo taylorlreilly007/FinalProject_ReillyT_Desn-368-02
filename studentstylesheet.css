@@ -82,6 +82,9 @@ header{
 }
 
 /*---Middle---*/
+.middle{
+    margin:30px;
+}
 .profile1,
 .profile2,
 .profile3,
@@ -89,12 +92,11 @@ header{
     display:grid;
     grid-template-columns: 2fr 1fr;
     grid-gap: 50px;
-    margin:30px;
 }
 img[alt='mst3k']{
     width: 100%;
     height:500px;
-    margin:10px;
+    margin:30px 80px 30px 0px;
 }
 h5,
 h6,
@@ -120,6 +122,84 @@ p{
     font-family:'avenir-next-regular';
     font-size: 25px;
     line-height: 40px;
+}
+.middlebottom{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.leftbottom{
+    height:auto;
+    width:100%;
+    font-family: 'gotham-bold';
+}
+.leftwrapper{
+    color:#c5c1c0;
+    background-color: #1A2930;
+    padding:150px 80px 150px 80px;
+}
+.yellowblock{
+    background-color: #f7ce3e;
+    width:100%;
+    height:20px;
+}
+h2,
+h4{
+    margin-left:50px;
+}
+h2{
+    font-size:4.5em;
+}
+h4{
+    font-size:4em;
+}
+.middlebottomwrapper,
+.rightbottom{
+    display:grid;
+    grid-template-rows: 1fr 1fr;
+}
+.middlebottomtop,
+.middlebottombottom,
+.rightbottomtop,
+.rightbottombottom{
+    text-align:center;
+    font-family:"gotham-bold";
+    background-size: cover;
+    background-position: center;
+    margin:0px 20px 0px 20px;
+}
+.middlebottombottom,
+.rightbottombottom{
+    margin-top:20px;
+}
+.middlebottomtop{
+    background-image: url("assets/images/mst3k/joel.jpg");
+}
+.middlebottombottom{
+    background-image: url("assets/images/mst3k/mads2.jpg");
+}
+.rightbottomtop{
+    background-image: url("assets/images/mst3k/mads3.jpg");
+}
+.rightbottombottom{
+    background-image: url("assets/images/mst3k/mads1.jpg");
+}
+.middlebottomwrapper .middlebottomtop h3,
+.rightbottom .rightbottombottom h3{
+   background-color:#c5c1c0;
+    
+}
+.middlebottomwrapper .middlebottombottom h3,
+.rightbottom .rightbottomtop h3{
+    background-color: #f7ce3e;
+}
+.middlebottomwrapper .middlebottombottom h3,
+.rightbottom .rightbottomtop h3,
+.middlebottomwrapper .middlebottomtop h3,
+.rightbottom .rightbottombottom h3{
+    padding:5px;
+    margin-top:0px;
+    margin-left:300px;
+    font-size: 30px;
 }
 
 /*---Footer---*/
