@@ -74,12 +74,52 @@ header{
     font-family: "avenir-next-regular";
     margin-top:0;
     margin-bottom:180px;
-    opacity:0.6;
 }
 .students{
     margin-top:0;
     font-size: 5em;
     font-family: "gotham-medium";
+}
+
+/*---Middle---*/
+.profile1,
+.profile2,
+.profile3,
+.profile4{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 50px;
+    margin:30px;
+}
+img[alt='mst3k']{
+    width: 100%;
+    height:500px;
+    margin:10px;
+}
+h5,
+h6,
+p{
+    margin-bottom:0px;  
+    font-weight:normal;
+}
+h5,
+h6{
+    font-family: 'gotham-medium';
+}
+h6,
+p{
+    margin-top:30px;
+}
+h5{
+    font-size:60px;
+}
+h6{
+    font-size:43px;
+}
+p{
+    font-family:'avenir-next-regular';
+    font-size: 25px;
+    line-height: 40px;
 }
 
 /*---Footer---*/
